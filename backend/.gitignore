@@ -1,0 +1,37 @@
+# ==============================================================================
+# Backend Specific .gitignore
+# ==============================================================================
+
+# Environment files containing local credentials
+.env
+.env.*
+!.env.example
+
+# Maven build outputs
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Uploaded candidate resumes and storage directories
+uploads/
+uploads/**
+
+# Logs
+*.log
+logs/
+
+# IDE & Editor files
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+**/desktop.ini

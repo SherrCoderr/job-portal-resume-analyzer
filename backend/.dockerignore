@@ -1,0 +1,33 @@
+# ==============================================================================
+# Docker Ignore - Exclude local secrets, binaries, and IDE files from image build
+# ==============================================================================
+
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+
+# Local build artifacts
+target/
+*.class
+*.jar
+*.war
+
+# Uploaded files
+uploads/
+uploads/**
+
+# Logs
+*.log
+logs/
+
+# Git and IDE
+.git/
+.github/
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,39 @@
+# ==============================================================================
+# Root .dockerignore
+# ==============================================================================
+
+# Environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local build artifacts
+target/
+**/target/
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+
+# Uploads
+uploads/
+**/uploads/
+
+# Logs
+*.log
+**/logs/
+
+# Git and IDE
+.git/
+.github/
+.idea/
+**/.idea/
+.vscode/
+**/.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
